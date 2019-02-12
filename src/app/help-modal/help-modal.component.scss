@@ -1,0 +1,122 @@
+@import "../../variables";
+
+$modal-header-border-width: 3px;
+$modal-header-height: 50px;
+
+$modal-padding: 10px;
+
+$modal-box-width: 400px;
+$modal-box-height: 500px;
+$modal-box-width-mobile: 95vw;
+$modal-box-height-small: 450px;
+
+//Modal screen
+#help-modal {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
+
+  //Modal content
+  #modal-box {
+    width: $modal-box-width;
+    height: $modal-box-height;
+    //border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px rgba(40, 40, 40, 0.5);
+    background-color: $heavy-grey;
+
+    @media screen and (max-width: 425px) {
+      width: $modal-box-width-mobile;
+    }
+
+    @media screen and (max-height: 575px) {
+      height: $modal-box-height-small;
+    }
+
+    //Help title and close icon
+    #modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: $modal-header-height;
+      background-color: $dark-grey;
+      padding: 0 $modal-padding 0 $modal-padding;
+
+      //border-bottom: $modal-header-border-width solid $dark-grey;
+
+      #modal-title {
+        margin: 0;
+        line-height: 1;
+        color: $light-green;
+      }
+
+      #close-icon {
+        cursor: pointer;
+      }
+    }
+
+    //Body with scroll
+    #modal-body {
+      display: block;
+      height: $modal-box-height - $modal-header-height - $modal-padding - $modal-padding;
+      overflow-y: auto;
+      padding: $modal-padding $modal-padding $modal-padding $modal-padding;
+
+      @media screen and (max-height: 575px) {
+        height: $modal-box-height-small - $modal-header-height - $modal-padding - $modal-padding;
+      }
+
+      //Question/Answer sets
+      .info-section {
+        text-align: left;
+        margin-bottom: 25px;
+
+        //Question/title
+        .section-title {
+          margin: 0;
+          line-height: 1.1;
+          color: $light-green;
+          opacity: 0.9;
+        }
+
+        p {
+          margin: 10px;
+          font-weight: 300;
+          line-height: 1.2;
+        }
+
+        li {
+          margin: 8px 0 8px 0;
+        }
+        a {
+          text-decoration: none;
+          color: $off-white;
+        }
+      }
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #3d3d3d;
+}
+
+//Scrollbar slider
+::-webkit-scrollbar-thumb {
+  background: $mid-grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $light-grey;
+}

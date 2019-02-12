@@ -1,0 +1,129 @@
+/* GLOBAL STYLES */
+
+//Yantramanav weights:300,400,500,700
+
+@import "variables";
+
+body {
+  font-family: "Yantramanav", sans-serif;
+  background-color: $dark-grey;
+  color: $off-white;
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "app"
+    "footer";
+  grid-template-rows: 75px 1fr 75px;
+
+  margin: 0;
+}
+
+header {
+  grid-area: header;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    max-width: 150px;
+  }
+}
+
+main {
+  grid-area: app;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+  //Grid for child component forms and result
+  .form-grid {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+  }
+
+  //Row for each form element
+  .form-row {
+    width: 100%;
+    height: $form-row-height;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    label {
+      color: white;
+      font-weight: 300;
+    }
+
+    //Inline labels
+    .secondary-label {
+      font-weight: 300;
+      color: white;
+    }
+
+    input,
+    select {
+      border-radius: 5px;
+      border: 1px solid $off-black;
+      font-family: "Yantramanav", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      background-color: $light-grey;
+      padding: 3px 0px 3px 5px;
+      text-align: left;
+    }
+
+    select:disabled {
+      background-color: $dark-grey;
+    }
+
+    //Minutes number input for Length
+    #minute-input {
+      margin-left: 15px;
+    }
+    //File unit select for space/bitrate
+    #file-unit-select {
+      margin-left: 5px;
+    }
+  }
+
+  //Result div
+  .calc-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $off-black; //#878787;
+    border-radius: 5px;
+    margin-top: 5px;
+
+    h3 {
+      margin: 0 5px 0 5px;
+      line-height: 1;
+      color: $light-green;
+      display: inline;
+      font-size: 1.5em;
+    }
+
+    .small {
+      font-weight: 300;
+    }
+  }
+}
+
+//By Kevin
+footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $light-green;
+  font-weight: 300;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: $off-white;
+  }
+}

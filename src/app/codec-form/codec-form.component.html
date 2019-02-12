@@ -1,0 +1,41 @@
+<div id="codec-form">
+  <div class="form-row">
+    <label for="codec-select">Codec</label>
+    <select id="codec-select" (change)="changeCodec($event)">
+      <option value="" [selected]="!currentCodec">--- Select Codec ---</option>
+      <option *ngFor="let codec of codecs" [value]="codec.name">{{ codec.name }}</option>
+    </select>
+  </div>
+
+  <div class="form-row">
+    <label for="resolution-select">Resolution</label>
+    <select [disabled]="!currentCodec" id="resolution-select" (change)="changeResolution($event)">
+      <option value="">--- Select Resolution ---</option>
+      <option
+        *ngFor="let resolution of resolutions"
+        [value]="resolution"
+        [selected]="currentResolution === resolution"
+      >
+        {{ resolution }}
+      </option>
+    </select>
+  </div>
+
+  <div class="form-row">
+    <label for="framerate-select">Framerate</label>
+    <select
+      [disabled]="!currentResolution"
+      id="framerate-select"
+      (change)="changeFramerate($event)"
+    >
+      <option value="">--- Select Framerate ---</option>
+      <option
+        *ngFor="let framerate of framerates"
+        [value]="framerate"
+        [selected]="currentFramerate === framerate"
+      >
+        {{ framerate }}
+      </option>
+    </select>
+  </div>
+</div>

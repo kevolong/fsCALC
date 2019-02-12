@@ -1,0 +1,94 @@
+<div id="help-modal" [@fadeIn]>
+  <div id="modal-box">
+    <div id="modal-header">
+      <h2 id="modal-title">INFO</h2>
+      <div id="close-icon" (click)="closeModal()">
+        <fa-icon [icon]="faTimesCircle" size="lg"></fa-icon>
+      </div>
+    </div>
+    <div id="modal-body">
+      <!-- Modes -->
+      <div class="info-section">
+        <h3 class="section-title">Modes</h3>
+        <p>
+          <strong>Footage -> Size: </strong>Estimate footage size based on length of footage in
+          hours and minutes. Choose a codec, resolution, and framerate, in that order as resolution
+          options are dependent on codec choice, and framerate options are dependent on resolution
+          choice. Bitrate is set by the codec.
+        </p>
+        <p>
+          <strong>Size -> Footage: </strong>Estimate amount of footage that can fit a space size.
+          Choose a codec, resolution, and framerate, in that order as resolution options are
+          dependent on codec choice, and framerate options are dependent on resolution choice.
+          Bitrate is set by the codec.
+        </p>
+        <p>
+          <strong>Custom Bitrate: </strong>Estimate footage size based on length of footage in hours
+          and minutes. Enter a bitrate for use with codecs that have a user-defined bitrate, such as
+          H.264 or H.265. Resolution and framerate do not apply.
+        </p>
+      </div>
+
+      <!-- Accuracy -->
+      <div class="info-section">
+        <h3 class="section-title">Calculation Accuracy</h3>
+        <p>
+          Calculations are for video files only. Audio files are usually processed and stored
+          separately. Some codecs may include camera audio, but many professional codecs (such as
+          DNxHD and ProRes) do not. If you have camera or external audio files, they are not
+          included in the calculations.
+        </p>
+        <p>File sizes are rounded to two decimal points. Footage minutes are rounded down.</p>
+        <p>
+          Calculations are a close estimate for codecs with a constant bitrate (CBR). Actual file
+          sizes will vary slightly and may be higher or lower.
+        </p>
+        <p>
+          Calculations for codecs with a variable bitrate (VBR) are made at the maximum bitrate, so
+          are over-estimates of varying degree depending on the complexity of the video.
+        </p>
+        <p>
+          If you don't know whether the codec you are using has a constant or variable bitrate,
+          check out the codec links in the section below. Codecs with user-defined bitrates may be
+          constant or variable.
+        </p>
+      </div>
+
+      <!-- Codecs -->
+      <div class="info-section">
+        <h3 class="section-title">Codecs</h3>
+        <p>Below are links to official documentation:</p>
+        <ul>
+          <li *ngFor="let doc of codecDocs.official_docs">
+            <a href="{{ doc.doc_link }}" target="_blank">{{ doc.codec_family }}</a>
+          </li>
+        </ul>
+        <p>
+          Some legacy codecs may no longer have official documentation available. Below are links to
+          unofficial documentation:
+        </p>
+        <ul>
+          <li *ngFor="let doc of codecDocs.unofficial_docs">
+            <a href="{{ doc.doc_link }}" target="_blank">{{ doc.codec_family }}</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="info-section">
+        <h3 class="section-title">Contact</h3>
+        <p>
+          Have any questions, comments, or suggestions? Contact
+          <a href="mailto:kevin@kevinandrewlong.com"><strong>Kevin</strong></a
+          >.
+        </p>
+        <p>
+          This app was coded and designed by Kevin Long. To see his work, please visit
+          <a href="https://kevinandrewlong.com" target="_blank">
+            <strong>KevinAndrewLong.com</strong>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

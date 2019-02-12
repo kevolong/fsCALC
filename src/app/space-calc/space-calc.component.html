@@ -1,0 +1,43 @@
+<div class="form-grid">
+  <div class="form-row">
+    <div><label for="space-input">Space</label></div>
+    <div>
+      <input
+        type="number"
+        id="space-input"
+        name="space"
+        min="1"
+        max="10000"
+        [(ngModel)]="currentSpace"
+        (change)="checkForm()"
+      />
+      <select id="file-unit-select" (change)="changeUnit($event)">
+        <option value="GB">GB</option>
+        <option value="TB">TB</option>
+        <option value="PB">PB</option>
+      </select>
+    </div>
+  </div>
+  <app-codec-form
+    [codecs]="codecs"
+    [(currentCodec)]="currentCodec"
+    [(currentResolution)]="currentResolution"
+    [(currentFrameRate)]="currentFrameRate"
+    (validate)="checkForm()"
+  ></app-codec-form>
+  <div class="calc-result">
+    <div *ngIf="displayResult">
+      <h3 *ngIf="footageAmount.hours > 0">
+        {{ footageAmount.hours | timeString }}
+        <span *ngIf="footageAmount.hours > 1" class="small"> hrs</span>
+        <span *ngIf="footageAmount.hours === 1" class="small"> hr</span>
+      </h3>
+
+      <h3 *ngIf="footageAmount.minutes > 0">
+        {{ footageAmount.minutes | timeString }}
+        <span *ngIf="footageAmount.minutes > 1" class="small"> mins</span>
+        <span *ngIf="footageAmount.minutes === 1" class="small"> min</span>
+      </h3>
+    </div>
+  </div>
+</div>

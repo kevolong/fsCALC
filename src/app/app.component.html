@@ -1,0 +1,49 @@
+<div *ngIf="loading" id="loading-animation">
+  <div class="sk-circle">
+    <div class="sk-circle1 sk-child"></div>
+    <div class="sk-circle2 sk-child"></div>
+    <div class="sk-circle3 sk-child"></div>
+    <div class="sk-circle4 sk-child"></div>
+    <div class="sk-circle5 sk-child"></div>
+    <div class="sk-circle6 sk-child"></div>
+    <div class="sk-circle7 sk-child"></div>
+    <div class="sk-circle8 sk-child"></div>
+    <div class="sk-circle9 sk-child"></div>
+    <div class="sk-circle10 sk-child"></div>
+    <div class="sk-circle11 sk-child"></div>
+    <div class="sk-circle12 sk-child"></div>
+  </div>
+</div>
+
+<app-help-modal
+  *ngIf="displayModal"
+  [(displayModal)]="displayModal"
+  [codecDocs]="codecDocs"
+></app-help-modal>
+
+<div id="app" [@fadeIn]="state">
+  <h2 id="title">Footage Size Calculator</h2>
+  <h4 id="sub-title">
+    Estimate how much space your video will take<br />
+    or how much video can fit into your space.
+  </h4>
+  <div id="calc-box">
+    <div class="form-row">
+      <div class="form-row">
+        <label for="mode-select">Mode</label>
+        <select id="mode-select" (change)="changeMode($event)">
+          <option value="footage">Footage -> Size</option>
+          <option value="space">Size -> Footage</option>
+          <option value="custom">Custom Bitrate</option>
+        </select>
+      </div>
+    </div>
+
+    <app-footage-calc *ngIf="mode === 'footage'" [codecs]="codecs"></app-footage-calc>
+    <app-space-calc *ngIf="mode === 'space'" [codecs]="codecs"></app-space-calc>
+    <app-custom-calc *ngIf="mode === 'custom'"></app-custom-calc>
+  </div>
+  <div id="help-icon" (click)="showModal()">
+    <fa-icon [icon]="faQuestionCircle" size="lg"></fa-icon>
+  </div>
+</div>

@@ -1,0 +1,1578 @@
+{
+  "codec_families": [
+    {
+      "family": "AVC-Ultra",
+      "codecs": [
+        {
+          "name": "AVC-Intra 50",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "50p": { "datarate": 50 },
+                "60p": { "datarate": 50 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 50 },
+                "60i": { "datarate": 50 }
+              }
+            }
+          }
+        },
+        {
+          "name": "AVC-Intra 100",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 44 },
+                "25p": { "datarate": 56 },
+                "30p": { "datarate": 56 },
+                "50p": { "datarate": 111 },
+                "60p": { "datarate": 111 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 89 },
+                "25p": { "datarate": 111 },
+                "30p": { "datarate": 111 },
+                "50p": { "datarate": 222 },
+                "60p": { "datarate": 222 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 111 },
+                "60i": { "datarate": 111 }
+              }
+            }
+          }
+        },
+        {
+          "name": "AVC-Intra 200",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "50p": { "datarate": 226 },
+                "60p": { "datarate": 226 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 178 },
+                "25p": { "datarate": 226 },
+                "30p": { "datarate": 226 },
+                "50p": { "datarate": 452 },
+                "60p": { "datarate": 452 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 226 },
+                "60i": { "datarate": 226 }
+              }
+            }
+          }
+        },
+        {
+          "name": "AVC-Intra 444",
+          "resolutions": {
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 180 },
+                "25p": { "datarate": 220 },
+                "30p": { "datarate": 220 },
+                "50p": { "datarate": 440 },
+                "60p": { "datarate": 440 }
+              }
+            }
+          }
+        },
+        {
+          "name": "AVC-LongG G6",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "50p": { "datarate": 6 },
+                "60p": { "datarate": 6 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "50p": { "datarate": 12 },
+                "60p": { "datarate": 12 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 6 },
+                "60i": { "datarate": 6 }
+              }
+            }
+          }
+        },
+        {
+          "name": "AVC-LongG G12",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "50p": { "datarate": 12 },
+                "60p": { "datarate": 12 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "50p": { "datarate": 24 },
+                "60p": { "datarate": 24 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 12 },
+                "60i": { "datarate": 12 }
+              }
+            }
+          }
+        },
+        {
+          "name": "AVC-LongG G25",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "50p": { "datarate": 25 },
+                "60p": { "datarate": 25 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 25 },
+                "25p": { "datarate": 25 },
+                "30p": { "datarate": 25 },
+                "50p": { "datarate": 50 },
+                "60p": { "datarate": 50 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 25 },
+                "60i": { "datarate": 25 }
+              }
+            }
+          }
+        },
+        {
+          "name": "AVC-LongG G50",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "50p": { "datarate": 50 },
+                "60p": { "datarate": 50 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 50 },
+                "25p": { "datarate": 50 },
+                "30p": { "datarate": 50 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 50 },
+                "60i": { "datarate": 50 }
+              }
+            }
+          }
+        },
+        {
+          "name": "AVC-Proxy LOW",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 0.8 },
+                "25p": { "datarate": 0.8 },
+                "30p": { "datarate": 0.8 },
+                "50p": { "datarate": 0.8 },
+                "60p": { "datarate": 0.8 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 0.8 },
+                "25p": { "datarate": 0.8 },
+                "30p": { "datarate": 0.8 },
+                "50p": { "datarate": 0.8 },
+                "60p": { "datarate": 0.8 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 0.8 },
+                "60i": { "datarate": 0.8 }
+              }
+            }
+          }
+        },
+        {
+          "name": "AVC-Proxy HQ",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 1.5 },
+                "25p": { "datarate": 1.5 },
+                "30p": { "datarate": 1.5 },
+                "50p": { "datarate": 1.5 },
+                "60p": { "datarate": 1.5 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 1.5 },
+                "25p": { "datarate": 1.5 },
+                "30p": { "datarate": 1.5 },
+                "50p": { "datarate": 1.5 },
+                "60p": { "datarate": 1.5 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 1.5 },
+                "60i": { "datarate": 1.5 }
+              }
+            }
+          }
+        },
+        {
+          "name": "AVC-Proxy SHQ",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 3.5 },
+                "25p": { "datarate": 3.5 },
+                "30p": { "datarate": 3.5 },
+                "50p": { "datarate": 3.5 },
+                "60p": { "datarate": 3.5 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 3.5 },
+                "25p": { "datarate": 3.5 },
+                "30p": { "datarate": 3.5 },
+                "50p": { "datarate": 3.5 },
+                "60p": { "datarate": 3.5 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 3.5 },
+                "60i": { "datarate": 3.5 }
+              }
+            }
+          }
+        },
+        {
+          "name": "AVC-Proxy G6",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 6 },
+                "25p": { "datarate": 6 },
+                "30p": { "datarate": 6 },
+                "50p": { "datarate": 6 },
+                "60p": { "datarate": 6 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 6 },
+                "25p": { "datarate": 6 },
+                "30p": { "datarate": 6 },
+                "50p": { "datarate": 6 },
+                "60p": { "datarate": 6 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 6 },
+                "60i": { "datarate": 6 }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "family": "DNxHD",
+      "codecs": [
+        {
+          "name": "DNxHD 36 (Offline)",
+          "resolutions": {
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 36 },
+                "25p": { "datarate": 36 },
+                "30p": { "datarate": 45 },
+                "50p": { "datarate": 75 },
+                "60p": { "datarate": 90 }
+              }
+            }
+          }
+        },
+        {
+          "name": "DNxHD 145 (SQ)",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 58 },
+                "25p": { "datarate": 60 },
+                "30p": { "datarate": 72 },
+                "50p": { "datarate": 115 },
+                "60p": { "datarate": 145 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 116 },
+                "25p": { "datarate": 121 },
+                "30p": { "datarate": 145 },
+                "50p": { "datarate": 242 },
+                "60p": { "datarate": 291 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 121 },
+                "60i": { "datarate": 145 }
+              }
+            }
+          }
+        },
+        {
+          "name": "DNxHD 220 (HQ 8-bit)",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 88 },
+                "25p": { "datarate": 92 },
+                "30p": { "datarate": 110 },
+                "50p": { "datarate": 175 },
+                "60p": { "datarate": 220 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 176 },
+                "25p": { "datarate": 184 },
+                "30p": { "datarate": 220 },
+                "50p": { "datarate": 367 },
+                "60p": { "datarate": 440 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 184 },
+                "60i": { "datarate": 220 }
+              }
+            }
+          }
+        },
+        {
+          "name": "DNxHD 220x (HQ 10-bit)",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 88 },
+                "25p": { "datarate": 92 },
+                "30p": { "datarate": 110 },
+                "50p": { "datarate": 175 },
+                "60p": { "datarate": 220 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 176 },
+                "25p": { "datarate": 184 },
+                "30p": { "datarate": 220 },
+                "50p": { "datarate": 367 },
+                "60p": { "datarate": 440 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 184 },
+                "60i": { "datarate": 220 }
+              }
+            }
+          }
+        },
+        {
+          "name": "DNxHD 444 (4:4:4 10-bit)",
+          "resolutions": {
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 352 },
+                "25p": { "datarate": 367 },
+                "30p": { "datarate": 440 }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "family": "DNxHR",
+      "codecs": [
+        {
+          "name": "DNxHR LB",
+          "resolutions": {
+            "2K": {
+              "framerates": {
+                "24p": { "datarate": 36.72 },
+                "25p": { "datarate": 38.32 },
+                "30p": { "datarate": 45.92 },
+                "50p": { "datarate": 76.56 },
+                "60p": { "datarate": 91.76 }
+              }
+            },
+            "UHD": {
+              "framerates": {
+                "24p": { "datarate": 137.12 },
+                "25p": { "datarate": 142.96 },
+                "30p": { "datarate": 171.36 },
+                "50p": { "datarate": 285.92 },
+                "60p": { "datarate": 342.8 }
+              }
+            },
+            "4K": {
+              "framerates": {
+                "24p": { "datarate": 146.08 },
+                "25p": { "datarate": 152.32 },
+                "30p": { "datarate": 182.64 },
+                "50p": { "datarate": 304.72 },
+                "60p": { "datarate": 365.28 }
+              }
+            }
+          }
+        },
+        {
+          "name": "DNxHR SQ",
+          "resolutions": {
+            "2K": {
+              "framerates": {
+                "24p": { "datarate": 117.6 },
+                "25p": { "datarate": 122.64 },
+                "30p": { "datarate": 147.04 },
+                "50p": { "datarate": 245.28 },
+                "60p": { "datarate": 294.08 }
+              }
+            },
+            "UHD": {
+              "framerates": {
+                "24p": { "datarate": 440.56 },
+                "25p": { "datarate": 459.36 },
+                "30p": { "datarate": 550.72 },
+                "50p": { "datarate": 918.72 },
+                "60p": { "datarate": 1101.36 }
+              }
+            },
+            "4K": {
+              "framerates": {
+                "24p": { "datarate": 469.76 },
+                "25p": { "datarate": 489.84 },
+                "30p": { "datarate": 587.2 },
+                "50p": { "datarate": 979.68 },
+                "60p": { "datarate": 1174.48 }
+              }
+            }
+          }
+        },
+        {
+          "name": "DNxHR HQ",
+          "resolutions": {
+            "2K": {
+              "framerates": {
+                "24p": { "datarate": 177.6 },
+                "25p": { "datarate": 185.12 },
+                "30p": { "datarate": 222 },
+                "50p": { "datarate": 370.32 },
+                "60p": { "datarate": 443.92 }
+              }
+            },
+            "UHD": {
+              "framerates": {
+                "24p": { "datarate": 660.08 },
+                "25p": { "datarate": 694.56 },
+                "30p": { "datarate": 832.64 },
+                "50p": { "datarate": 1389.04 },
+                "60p": { "datarate": 1665.2 }
+              }
+            },
+            "4K": {
+              "framerates": {
+                "24p": { "datarate": 711.04 },
+                "25p": { "datarate": 741.44 },
+                "30p": { "datarate": 888.8 },
+                "50p": { "datarate": 1482.8 },
+                "60p": { "datarate": 1777.6 }
+              }
+            }
+          }
+        },
+        {
+          "name": "DNxHR HQX",
+          "resolutions": {
+            "2K": {
+              "framerates": {
+                "24p": { "datarate": 177.6 },
+                "25p": { "datarate": 185.12 },
+                "30p": { "datarate": 222 },
+                "50p": { "datarate": 370.32 },
+                "60p": { "datarate": 443.92 }
+              }
+            },
+            "UHD": {
+              "framerates": {
+                "24p": { "datarate": 660.08 },
+                "25p": { "datarate": 694.56 },
+                "30p": { "datarate": 832.64 },
+                "50p": { "datarate": 1389.04 },
+                "60p": { "datarate": 1665.2 }
+              }
+            },
+            "4K": {
+              "framerates": {
+                "24p": { "datarate": 711.04 },
+                "25p": { "datarate": 741.44 },
+                "30p": { "datarate": 888.8 },
+                "50p": { "datarate": 1482.8 },
+                "60p": { "datarate": 1777.6 }
+              }
+            }
+          }
+        },
+        {
+          "name": "DNxHR 444",
+          "resolutions": {
+            "2K": {
+              "framerates": {
+                "24p": { "datarate": 355.12 },
+                "25p": { "datarate": 370.32 },
+                "30p": { "datarate": 443.92 },
+                "50p": { "datarate": 740.64 },
+                "60p": { "datarate": 887.84 }
+              }
+            },
+            "UHD": {
+              "framerates": {
+                "24p": { "datarate": 1332.88 },
+                "25p": { "datarate": 1389.84 },
+                "30p": { "datarate": 1666.16 },
+                "50p": { "datarate": 2779.68 },
+                "60p": { "datarate": 3332.32 }
+              }
+            },
+            "4K": {
+              "framerates": {
+                "24p": { "datarate": 1421.36 },
+                "25p": { "datarate": 1482 },
+                "30p": { "datarate": 1776.64 },
+                "50p": { "datarate": 2964.08 },
+                "60p": { "datarate": 3553.28 }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "family": "DVCPRO",
+      "codecs": [
+        {
+          "name": "DV",
+          "resolutions": {
+            "NTSC": {
+              "framerates": {
+                "60i": { "datarate": 25 }
+              }
+            },
+            "PAL": {
+              "framerates": {
+                "50i": { "datarate": 25 }
+              }
+            }
+          }
+        },
+        {
+          "name": "DVCPRO",
+          "resolutions": {
+            "NTSC": {
+              "framerates": {
+                "60i": { "datarate": 25 }
+              }
+            },
+            "PAL": {
+              "framerates": {
+                "50i": { "datarate": 25 }
+              }
+            }
+          }
+        },
+        {
+          "name": "DVCPRO 50",
+          "resolutions": {
+            "NTSC": {
+              "framerates": {
+                "60i": { "datarate": 50 }
+              }
+            },
+            "PAL": {
+              "framerates": {
+                "50i": { "datarate": 50 }
+              }
+            }
+          }
+        },
+        {
+          "name": "DVCPRO HD",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "50p": { "datarate": 100 },
+                "60p": { "datarate": 100 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 100 },
+                "60i": { "datarate": 100 }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "family": "HDV",
+      "codecs": [
+        {
+          "name": "HDV",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 18.3 },
+                "25p": { "datarate": 18.3 },
+                "30p": { "datarate": 18.3 },
+                "50p": { "datarate": 18.3 },
+                "60p": { "datarate": 18.3 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 25 },
+                "25p": { "datarate": 25 },
+                "30p": { "datarate": 25 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 25 },
+                "60i": { "datarate": 25 }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "family": "ProRes",
+      "codecs": [
+        {
+          "name": "ProRes 422 Proxy",
+          "resolutions": {
+            "NTSC": {
+              "framerates": {
+                "24p": { "datarate": 10 },
+                "30p/60i": { "datarate": 12 }
+              }
+            },
+            "PAL": {
+              "framerates": {
+                "25p/50i": { "datarate": 12 }
+              }
+            },
+            "960 x 720": {
+              "framerates": {
+                "24p": { "datarate": 15 },
+                "25p": { "datarate": 16 },
+                "30p": { "datarate": 19 },
+                "50p": { "datarate": 32 },
+                "60p": { "datarate": 38 }
+              }
+            },
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 18 },
+                "25p": { "datarate": 19 },
+                "30p": { "datarate": 23 },
+                "50p": { "datarate": 38 },
+                "60p": { "datarate": 45 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 36 },
+                "25p": { "datarate": 38 },
+                "30p": { "datarate": 45 },
+                "50p": { "datarate": 76 },
+                "60p": { "datarate": 91 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 38 },
+                "60i": { "datarate": 45 }
+              }
+            },
+            "2K": {
+              "framerates": {
+                "24p": { "datarate": 41 },
+                "25p": { "datarate": 43 },
+                "30p": { "datarate": 52 },
+                "50p": { "datarate": 86 },
+                "60p": { "datarate": 103 }
+              }
+            },
+            "2K Full Aperture": {
+              "framerates": {
+                "24p": { "datarate": 56 },
+                "25p": { "datarate": 58 },
+                "30p": { "datarate": 70 },
+                "50p": { "datarate": 117 },
+                "60p": { "datarate": 140 }
+              }
+            },
+            "QFHD": {
+              "framerates": {
+                "24p": { "datarate": 145 },
+                "25p": { "datarate": 151 },
+                "30p": { "datarate": 182 },
+                "50p": { "datarate": 303 },
+                "60p": { "datarate": 363 }
+              }
+            },
+            "4K": {
+              "framerates": {
+                "24p": { "datarate": 155 },
+                "25p": { "datarate": 162 },
+                "30p": { "datarate": 194 },
+                "50p": { "datarate": 323 },
+                "60p": { "datarate": 388 }
+              }
+            },
+            "5K": {
+              "framerates": {
+                "24p": { "datarate": 243 },
+                "25p": { "datarate": 253 },
+                "30p": { "datarate": 304 },
+                "50p": { "datarate": 507 },
+                "60p": { "datarate": 608 }
+              }
+            },
+            "6K": {
+              "framerates": {
+                "24p": { "datarate": 350 },
+                "25p": { "datarate": 365 },
+                "30p": { "datarate": 437 },
+                "50p": { "datarate": 730 },
+                "60p": { "datarate": 875 }
+              }
+            },
+            "8K": {
+              "framerates": {
+                "24p": { "datarate": 622 },
+                "25p": { "datarate": 649 },
+                "30p": { "datarate": 778 },
+                "50p": { "datarate": 1298 },
+                "60p": { "datarate": 1556 }
+              }
+            }
+          }
+        },
+        {
+          "name": "ProRes 422 LT",
+          "resolutions": {
+            "NTSC": {
+              "framerates": {
+                "24p": { "datarate": 23 },
+                "30p/60i": { "datarate": 29 }
+              }
+            },
+            "PAL": {
+              "framerates": {
+                "25p/50i": { "datarate": 28 }
+              }
+            },
+            "960 x 720": {
+              "framerates": {
+                "24p": { "datarate": 35 },
+                "25p": { "datarate": 36 },
+                "30p": { "datarate": 44 },
+                "50p": { "datarate": 73 },
+                "60p": { "datarate": 87 }
+              }
+            },
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 41 },
+                "25p": { "datarate": 42 },
+                "30p": { "datarate": 51 },
+                "50p": { "datarate": 84 },
+                "60p": { "datarate": 101 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 82 },
+                "25p": { "datarate": 85 },
+                "30p": { "datarate": 102 },
+                "50p": { "datarate": 170 },
+                "60p": { "datarate": 204 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 85 },
+                "60i": { "datarate": 102 }
+              }
+            },
+            "2K": {
+              "framerates": {
+                "24p": { "datarate": 93 },
+                "25p": { "datarate": 97 },
+                "30p": { "datarate": 116 },
+                "50p": { "datarate": 194 },
+                "60p": { "datarate": 232 }
+              }
+            },
+            "2K Full Aperture": {
+              "framerates": {
+                "24p": { "datarate": 126 },
+                "25p": { "datarate": 131 },
+                "30p": { "datarate": 157 },
+                "50p": { "datarate": 262 },
+                "60p": { "datarate": 314 }
+              }
+            },
+            "QFHD": {
+              "framerates": {
+                "24p": { "datarate": 328 },
+                "25p": { "datarate": 342 },
+                "30p": { "datarate": 410 },
+                "50p": { "datarate": 684 },
+                "60p": { "datarate": 821 }
+              }
+            },
+            "4K": {
+              "framerates": {
+                "24p": { "datarate": 350 },
+                "25p": { "datarate": 365 },
+                "30p": { "datarate": 437 },
+                "50p": { "datarate": 730 },
+                "60p": { "datarate": 875 }
+              }
+            },
+            "5K": {
+              "framerates": {
+                "24p": { "datarate": 547 },
+                "25p": { "datarate": 570 },
+                "30p": { "datarate": 684 },
+                "50p": { "datarate": 1140 },
+                "60p": { "datarate": 1367 }
+              }
+            },
+            "6K": {
+              "framerates": {
+                "24p": { "datarate": 788 },
+                "25p": { "datarate": 821 },
+                "30p": { "datarate": 985 },
+                "50p": { "datarate": 1643 },
+                "60p": { "datarate": 1969 }
+              }
+            },
+            "8K": {
+              "framerates": {
+                "24p": { "datarate": 1400 },
+                "25p": { "datarate": 1460 },
+                "30p": { "datarate": 1750 },
+                "50p": { "datarate": 2920 },
+                "60p": { "datarate": 3500 }
+              }
+            }
+          }
+        },
+        {
+          "name": "ProRes 422",
+          "resolutions": {
+            "NTSC": {
+              "framerates": {
+                "24p": { "datarate": 34 },
+                "30p/60i": { "datarate": 42 }
+              }
+            },
+            "PAL": {
+              "framerates": {
+                "25p/50i": { "datarate": 41 }
+              }
+            },
+            "960 x 720": {
+              "framerates": {
+                "24p": { "datarate": 50 },
+                "25p": { "datarate": 52 },
+                "30p": { "datarate": 63 },
+                "50p": { "datarate": 105 },
+                "60p": { "datarate": 126 }
+              }
+            },
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 59 },
+                "25p": { "datarate": 61 },
+                "30p": { "datarate": 73 },
+                "50p": { "datarate": 122 },
+                "60p": { "datarate": 147 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 117 },
+                "25p": { "datarate": 122 },
+                "30p": { "datarate": 147 },
+                "50p": { "datarate": 245 },
+                "60p": { "datarate": 293 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 122 },
+                "60i": { "datarate": 147 }
+              }
+            },
+            "2K": {
+              "framerates": {
+                "24p": { "datarate": 134 },
+                "25p": { "datarate": 140 },
+                "30p": { "datarate": 168 },
+                "50p": { "datarate": 280 },
+                "60p": { "datarate": 335 }
+              }
+            },
+            "2K Full Aperture": {
+              "framerates": {
+                "24p": { "datarate": 181 },
+                "25p": { "datarate": 189 },
+                "30p": { "datarate": 226 },
+                "50p": { "datarate": 377 },
+                "60p": { "datarate": 452 }
+              }
+            },
+            "QFHD": {
+              "framerates": {
+                "24p": { "datarate": 471 },
+                "25p": { "datarate": 492 },
+                "30p": { "datarate": 589 },
+                "50p": { "datarate": 983 },
+                "60p": { "datarate": 1178 }
+              }
+            },
+            "4K": {
+              "framerates": {
+                "24p": { "datarate": 503 },
+                "25p": { "datarate": 524 },
+                "30p": { "datarate": 629 },
+                "50p": { "datarate": 1049 },
+                "60p": { "datarate": 1257 }
+              }
+            },
+            "5K": {
+              "framerates": {
+                "24p": { "datarate": 786 },
+                "25p": { "datarate": 819 },
+                "30p": { "datarate": 982 },
+                "50p": { "datarate": 1638 },
+                "60p": { "datarate": 1964 }
+              }
+            },
+            "6K": {
+              "framerates": {
+                "24p": { "datarate": 1131 },
+                "25p": { "datarate": 1180 },
+                "30p": { "datarate": 1414 },
+                "50p": { "datarate": 2359 },
+                "60p": { "datarate": 2828 }
+              }
+            },
+            "8K": {
+              "framerates": {
+                "24p": { "datarate": 2011 },
+                "25p": { "datarate": 2097 },
+                "30p": { "datarate": 2514 },
+                "50p": { "datarate": 4194 },
+                "60p": { "datarate": 5028 }
+              }
+            }
+          }
+        },
+        {
+          "name": "ProRes 422 HQ",
+          "resolutions": {
+            "NTSC": {
+              "framerates": {
+                "24p": { "datarate": 50 },
+                "30p/60i": { "datarate": 63 }
+              }
+            },
+            "PAL": {
+              "framerates": {
+                "25p/50i": { "datarate": 61 }
+              }
+            },
+            "960 x 720": {
+              "framerates": {
+                "24p": { "datarate": 75 },
+                "25p": { "datarate": 79 },
+                "30p": { "datarate": 94 },
+                "50p": { "datarate": 157 },
+                "60p": { "datarate": 189 }
+              }
+            },
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 88 },
+                "25p": { "datarate": 92 },
+                "30p": { "datarate": 110 },
+                "50p": { "datarate": 184 },
+                "60p": { "datarate": 220 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 176 },
+                "25p": { "datarate": 184 },
+                "30p": { "datarate": 220 },
+                "50p": { "datarate": 367 },
+                "60p": { "datarate": 440 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 184 },
+                "60i": { "datarate": 220 }
+              }
+            },
+            "2K": {
+              "framerates": {
+                "24p": { "datarate": 201 },
+                "25p": { "datarate": 210 },
+                "30p": { "datarate": 251 },
+                "50p": { "datarate": 419 },
+                "60p": { "datarate": 503 }
+              }
+            },
+            "2K Full Aperture": {
+              "framerates": {
+                "24p": { "datarate": 272 },
+                "25p": { "datarate": 283 },
+                "30p": { "datarate": 340 },
+                "50p": { "datarate": 567 },
+                "60p": { "datarate": 679 }
+              }
+            },
+            "QFHD": {
+              "framerates": {
+                "24p": { "datarate": 707 },
+                "25p": { "datarate": 737 },
+                "30p": { "datarate": 884 },
+                "50p": { "datarate": 1475 },
+                "60p": { "datarate": 1768 }
+              }
+            },
+            "4K": {
+              "framerates": {
+                "24p": { "datarate": 754 },
+                "25p": { "datarate": 786 },
+                "30p": { "datarate": 943 },
+                "50p": { "datarate": 1573 },
+                "60p": { "datarate": 1886 }
+              }
+            },
+            "5K": {
+              "framerates": {
+                "24p": { "datarate": 1178 },
+                "25p": { "datarate": 1229 },
+                "30p": { "datarate": 1473 },
+                "50p": { "datarate": 2458 },
+                "60p": { "datarate": 2946 }
+              }
+            },
+            "6K": {
+              "framerates": {
+                "24p": { "datarate": 1697 },
+                "25p": { "datarate": 1769 },
+                "30p": { "datarate": 2121 },
+                "50p": { "datarate": 3539 },
+                "60p": { "datarate": 4542 }
+              }
+            },
+            "8K": {
+              "framerates": {
+                "24p": { "datarate": 3017 },
+                "25p": { "datarate": 3146 },
+                "30p": { "datarate": 3771 },
+                "50p": { "datarate": 6291 },
+                "60p": { "datarate": 7542 }
+              }
+            }
+          }
+        },
+        {
+          "name": "ProRes 4444",
+          "resolutions": {
+            "NTSC": {
+              "framerates": {
+                "24p": { "datarate": 75 },
+                "30p/60i": { "datarate": 94 }
+              }
+            },
+            "PAL": {
+              "framerates": {
+                "25p/50i": { "datarate": 92 }
+              }
+            },
+            "960 x 720": {
+              "framerates": {
+                "24p": { "datarate": 113 },
+                "25p": { "datarate": 118 },
+                "30p": { "datarate": 141 },
+                "50p": { "datarate": 236 },
+                "60p": { "datarate": 283 }
+              }
+            },
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 132 },
+                "25p": { "datarate": 138 },
+                "30p": { "datarate": 165 },
+                "50p": { "datarate": 275 },
+                "60p": { "datarate": 330 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 264 },
+                "25p": { "datarate": 275 },
+                "30p": { "datarate": 330 },
+                "50p": { "datarate": 551 },
+                "60p": { "datarate": 660 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 275 },
+                "60i": { "datarate": 330 }
+              }
+            },
+            "2K": {
+              "framerates": {
+                "24p": { "datarate": 302 },
+                "25p": { "datarate": 315 },
+                "30p": { "datarate": 377 },
+                "50p": { "datarate": 629 },
+                "60p": { "datarate": 754 }
+              }
+            },
+            "2K Full Aperture": {
+              "framerates": {
+                "24p": { "datarate": 407 },
+                "25p": { "datarate": 425 },
+                "30p": { "datarate": 509 },
+                "50p": { "datarate": 850 },
+                "60p": { "datarate": 1019 }
+              }
+            },
+            "QFHD": {
+              "framerates": {
+                "24p": { "datarate": 1061 },
+                "25p": { "datarate": 1106 },
+                "30p": { "datarate": 1326 },
+                "50p": { "datarate": 2212 },
+                "60p": { "datarate": 2652 }
+              }
+            },
+            "4K": {
+              "framerates": {
+                "24p": { "datarate": 1131 },
+                "25p": { "datarate": 1180 },
+                "30p": { "datarate": 1414 },
+                "50p": { "datarate": 2359 },
+                "60p": { "datarate": 2828 }
+              }
+            },
+            "5K": {
+              "framerates": {
+                "24p": { "datarate": 1768 },
+                "25p": { "datarate": 1843 },
+                "30p": { "datarate": 2210 },
+                "50p": { "datarate": 3686 },
+                "60p": { "datarate": 4419 }
+              }
+            },
+            "6K": {
+              "framerates": {
+                "24p": { "datarate": 2545 },
+                "25p": { "datarate": 2654 },
+                "30p": { "datarate": 3182 },
+                "50p": { "datarate": 5308 },
+                "60p": { "datarate": 6364 }
+              }
+            },
+            "8K": {
+              "framerates": {
+                "24p": { "datarate": 4525 },
+                "25p": { "datarate": 4719 },
+                "30p": { "datarate": 5657 },
+                "50p": { "datarate": 9437 },
+                "60p": { "datarate": 11313 }
+              }
+            }
+          }
+        },
+        {
+          "name": "ProRes 4444 XQ",
+          "resolutions": {
+            "NTSC": {
+              "framerates": {
+                "24p": { "datarate": 113 },
+                "30p/60i": { "datarate": 141 }
+              }
+            },
+            "PAL": {
+              "framerates": {
+                "25p/50i": { "datarate": 138 }
+              }
+            },
+            "960 x 720": {
+              "framerates": {
+                "24p": { "datarate": 170 },
+                "25p": { "datarate": 177 },
+                "30p": { "datarate": 212 },
+                "50p": { "datarate": 354 },
+                "60p": { "datarate": 424 }
+              }
+            },
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 198 },
+                "25p": { "datarate": 206 },
+                "30p": { "datarate": 247 },
+                "50p": { "datarate": 413 },
+                "60p": { "datarate": 495 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 396 },
+                "25p": { "datarate": 413 },
+                "30p": { "datarate": 495 },
+                "50p": { "datarate": 826 },
+                "60p": { "datarate": 990 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 413 },
+                "60i": { "datarate": 495 }
+              }
+            },
+            "2K": {
+              "framerates": {
+                "24p": { "datarate": 453 },
+                "25p": { "datarate": 472 },
+                "30p": { "datarate": 566 },
+                "50p": { "datarate": 944 },
+                "60p": { "datarate": 1131 }
+              }
+            },
+            "2K Full Aperture": {
+              "framerates": {
+                "24p": { "datarate": 611 },
+                "25p": { "datarate": 637 },
+                "30p": { "datarate": 764 },
+                "50p": { "datarate": 1275 },
+                "60p": { "datarate": 1528 }
+              }
+            },
+            "QFHD": {
+              "framerates": {
+                "24p": { "datarate": 1591 },
+                "25p": { "datarate": 1659 },
+                "30p": { "datarate": 1989 },
+                "50p": { "datarate": 3318 },
+                "60p": { "datarate": 3977 }
+              }
+            },
+            "4K": {
+              "framerates": {
+                "24p": { "datarate": 1697 },
+                "25p": { "datarate": 1769 },
+                "30p": { "datarate": 2121 },
+                "50p": { "datarate": 3539 },
+                "60p": { "datarate": 4242 }
+              }
+            },
+            "5K": {
+              "framerates": {
+                "24p": { "datarate": 2652 },
+                "25p": { "datarate": 2765 },
+                "30p": { "datarate": 3314 },
+                "50p": { "datarate": 5530 },
+                "60p": { "datarate": 6629 }
+              }
+            },
+            "6K": {
+              "framerates": {
+                "24p": { "datarate": 3818 },
+                "25p": { "datarate": 3981 },
+                "30p": { "datarate": 4772 },
+                "50p": { "datarate": 7962 },
+                "60p": { "datarate": 9545 }
+              }
+            },
+            "8K": {
+              "framerates": {
+                "24p": { "datarate": 6788 },
+                "25p": { "datarate": 7078 },
+                "30p": { "datarate": 8485 },
+                "50p": { "datarate": 14156 },
+                "60p": { "datarate": 16970 }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "family": "XDCAM",
+      "codecs": [
+        {
+          "name": "XDCAM EX",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 35 },
+                "25p": { "datarate": 35 },
+                "30p": { "datarate": 35 },
+                "50p": { "datarate": 35 },
+                "60p": { "datarate": 35 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 35 },
+                "25p": { "datarate": 35 },
+                "30p": { "datarate": 35 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 35 },
+                "60i": { "datarate": 35 }
+              }
+            }
+          }
+        },
+        {
+          "name": "XDCAM HD",
+          "resolutions": {
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 35 },
+                "25p": { "datarate": 35 },
+                "30p": { "datarate": 35 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 35 },
+                "60i": { "datarate": 35 }
+              }
+            }
+          }
+        },
+        {
+          "name": "XDCAM HD 422",
+          "resolutions": {
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 50 },
+                "25p": { "datarate": 50 },
+                "30p": { "datarate": 50 },
+                "50p": { "datarate": 50 },
+                "60p": { "datarate": 50 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 50 },
+                "25p": { "datarate": 50 },
+                "30p": { "datarate": 50 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 50 },
+                "60i": { "datarate": 50 }
+              }
+            }
+          }
+        },
+        {
+          "name": "XDCAM Proxy",
+          "resolutions": {
+            "Proxy": {
+              "framerates": {
+                "24p": { "datarate": 1.5 },
+                "25p": { "datarate": 1.5 },
+                "30p": { "datarate": 1.5 },
+                "50p": { "datarate": 1.5 },
+                "60p": { "datarate": 1.5 },
+                "50i": { "datarate": 1.5 },
+                "60i": { "datarate": 1.5 }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "family": "Uncompressed",
+      "codecs": [
+        {
+          "name": "Uncompressed 8-bit",
+          "resolutions": {
+            "NTSC": {
+              "framerates": {
+                "24p": { "datarate": 201.55 },
+                "30p/60i": { "datarate": 251.94 }
+              }
+            },
+            "PAL": {
+              "framerates": {
+                "25p/50i": { "datarate": 248.83 }
+              }
+            },
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 530.8 },
+                "25p": { "datarate": 553 },
+                "30p": { "datarate": 663.6 },
+                "50p": { "datarate": 1106 },
+                "60p": { "datarate": 1327 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 1194.4 },
+                "25p": { "datarate": 1244.2 },
+                "30p": { "datarate": 1493 },
+                "50p": { "datarate": 2488.3 },
+                "60p": { "datarate": 2986 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 1244.2 },
+                "60i": { "datarate": 1493 }
+              }
+            }
+          }
+        },
+        {
+          "name": "Uncompressed 10-bit",
+          "resolutions": {
+            "NTSC": {
+              "framerates": {
+                "24p": { "datarate": 251.94 },
+                "30p/60i": { "datarate": 314.9 }
+              }
+            },
+            "PAL": {
+              "framerates": {
+                "25p/50i": { "datarate": 311.04 }
+              }
+            },
+            "720p": {
+              "framerates": {
+                "24p": { "datarate": 663.6 },
+                "25p": { "datarate": 691.2 },
+                "30p": { "datarate": 829.4 },
+                "50p": { "datarate": 1382.4 },
+                "60p": { "datarate": 1659 }
+              }
+            },
+            "1080p": {
+              "framerates": {
+                "24p": { "datarate": 1493 },
+                "25p": { "datarate": 1555.2 },
+                "30p": { "datarate": 1866.2 },
+                "50p": { "datarate": 3110.4 },
+                "60p": { "datarate": 3732.5 }
+              }
+            },
+            "1080i": {
+              "framerates": {
+                "50i": { "datarate": 1555.2 },
+                "60i": { "datarate": 1866.2 }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "codec_docs": {
+    "official_docs": [
+      {
+        "codec_family": "Apple ProRes",
+        "doc_link": "https://www.apple.com/final-cut-pro/docs/Apple_ProRes_White_Paper.pdf"
+      },
+      {
+        "codec_family": "Avid DNxHD",
+        "doc_link": "https://www.avid.com/static/resources/US/documents/dnxhd.pdf"
+      },
+      {
+        "codec_family": "Avid DNxHR",
+        "doc_link": "http://avid.force.com/pkb/articles/en_US/White_Paper/DNxHR-Codec-Bandwidth-Specifications"
+      },
+      {
+        "codec_family": "Panasonic AVC Ultra",
+        "doc_link": "https://pro-av.panasonic.net/en/avc-ultra/AVC-ULTRAoverview.pdf"
+      },
+      {
+        "codec_family": "Sony XDCAM",
+        "doc_link": "https://pro.sony/s3/cms-static-content/uploadfile/15/1237494517315.pdf"
+      }
+    ],
+    "unofficial_docs": [
+      {
+        "codec_family": "HDV",
+        "doc_link": "https://en.wikipedia.org/wiki/HDV"
+      },
+      {
+        "codec_family": "DV / DVCPRO",
+        "doc_link": "https://www.mainconcept.com/fileadmin/user_upload/datasheets/DVCPRO_SDK_DATASHEET.pdf"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+<div class="form-grid">
+  <div class="form-row">
+    <div><label for="hour-input">Length</label></div>
+    <div>
+      <input
+        type="number"
+        id="hour-input"
+        name="hours"
+        min="0"
+        max="10000"
+        [(ngModel)]="currentHours"
+        (change)="checkForm()"
+      />
+      <span class="secondary-label"> hrs</span>
+      <input
+        type="number"
+        id="minute-input"
+        name="minutes"
+        min="0"
+        max="59"
+        [(ngModel)]="currentMinutes"
+        (change)="checkForm()"
+      />
+      <span class="secondary-label"> mins</span>
+    </div>
+  </div>
+  <div class="form-row">
+    <div><label for="bitrate-input">Bitrate</label></div>
+    <div>
+      <input
+        type="number"
+        id="bitrate-input"
+        name="space"
+        min="1"
+        max="1000"
+        [(ngModel)]="currentBitrate"
+        (change)="checkForm()"
+      />
+      <select id="file-unit-select" (change)="changeUnit($event)">
+        <option value="Mbps">Mbps</option>
+        <option value="Gbps">Gbps</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="calc-result">
+    <h3 *ngIf="displayResult">
+      {{ footageSize.fileSize }} <span class="small">{{ footageSize.fileUnit }}</span>
+    </h3>
+  </div>
+</div>

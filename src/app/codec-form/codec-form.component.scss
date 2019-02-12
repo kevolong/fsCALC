@@ -1,0 +1,10 @@
+select {
+  width: 225px;
+
+  @media screen and (max-width: 320px) {
+    width: 195px;
+  }
+  @media screen and (min-width: 321px) and (max-width: 375px) {
+    width: 215px;
+  }
+}
